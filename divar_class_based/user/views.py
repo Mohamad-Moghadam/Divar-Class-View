@@ -6,3 +6,7 @@ from user.serializerz import UserSerializer
 class ListCreateView(ListCreateAPIView):
     queryset= User.objects.all()
     serializer_class= UserSerializer
+
+class RetrieveUpdateDestroyView(RetrieveUpdateDestroyAPIView):
+    queryset= User.objects.all()
+    serializer_class= UserSerializer
