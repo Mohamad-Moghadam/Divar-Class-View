@@ -3,6 +3,5 @@ from user.views import ListCreateView
 
 
 urlpatterns = [
-    path('create', ListCreateView.as_view()),
-    path('list', ListCreateView.as_view()),
+    path('create-list', ListCreateView.as_view())
 ]
